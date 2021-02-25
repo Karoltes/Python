@@ -6,7 +6,7 @@ import math
 def rand_prime():
     x = 4
     while not sympy.isprime(x):
-        x = secrets.randbelow(2**64)
+        x = secrets.randbelow(2**16)
     return x
 
 
